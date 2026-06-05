@@ -24,42 +24,64 @@ The project uses an Air Pollution dataset containing:
 * Scikit-Learn
 * TensorFlow
 
-## Data Analysis Performed
+## Key Features
 
-### Heatmap Analysis
+* PM2.5 Trend Analysis
+* Temperature Correlation Analysis
+* Monthly Pollution Distribution Analysis
+* Time Series Visualization
+* Air Quality Forecasting Framework
+* Data Preprocessing and Cleaning
+* Exploratory Data Analysis (EDA)
 
-Shows average PM2.5 levels across different locations and months.
+## Visualizations
 
-### Yearly Trend Analysis
+### PM2.5 Heatmap
 
-Visualizes PM2.5 variations over multiple years.
+Analyzes average PM2.5 levels across locations and months.
 
-### Correlation Analysis
+### PM2.5 Trends Over Years
 
-Examines the relationship between temperature and PM2.5 concentration.
+Shows yearly changes in PM2.5 concentration.
+
+### Temperature vs PM2.5 Correlation
+
+Examines the relationship between temperature and pollution levels.
 
 ### Monthly Distribution Analysis
 
-Studies seasonal variations and pollution spread.
+Identifies seasonal variations and pollution spread.
 
-### Time Series Analysis
+### Daily PM2.5 Time Series
 
-Tracks PM2.5 fluctuations over time.
+Tracks pollution fluctuations over time.
 
 ## Results
 
 * Seasonal variation in pollution levels was observed.
-* Certain locations experienced consistently higher PM2.5 concentrations.
-* Temperature showed noticeable influence on pollution levels.
+* Certain locations consistently recorded higher PM2.5 concentrations.
+* Temperature showed noticeable influence on air quality.
 * Time-series analysis revealed pollution spikes during specific periods.
+* Visual analytics provided valuable insights into pollution trends.
 
 ## Future Enhancements
 
-* LSTM-based Forecasting
-* GRU-based Forecasting
-* Explainable AI (SHAP & LIME)
-* Real-time Air Quality Prediction
-* Web Deployment
+* LSTM-based Air Quality Forecasting
+* GRU-based Forecasting Models
+* Explainable AI using SHAP and LIME
+* Real-Time Air Quality Prediction
+* Web Application Deployment
+* IoT-Based Monitoring System
+
+## Project Structure
+
+dataset/ - Dataset files
+
+notebooks/ - Jupyter notebook implementation
+
+images/ - Visualization outputs
+
+research_paper/ - Research documentation
 
 ## Author
 
@@ -68,3 +90,5 @@ Kandhi Charan Yadav
 B.Tech Computer Science Engineering
 
 SR University
+
+GitHub: https://github.com/charanyadavkandhi
